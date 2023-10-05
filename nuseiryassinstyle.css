@@ -1,0 +1,84 @@
+.parallax{
+    background-image: url("https://www.journalism.co.uk/assets/6/NUSEIR_YASSIN_%28Nas_Daily%29.jpg_resized_700_.jpeg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    background: linear-gradient(180deg,yellow,green);
+    height:1000px;
+}
+
+a {
+    text-decoration: none;
+  }
+ .content nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 200px;
+
+  }
+  .head1{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 40px;
+    
+  }
+  .Main{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  nav ul li a {
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+    font-size: large;
+  }
+  nav ul li a:hover {
+    color: pink;
+    
+  }
+  nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: red;
+    transition: 0.3s;
+    bottom: 0;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  nav ul li a:hover {
+    color: rgba(61, 204, 209, 0.667);
+    
+  }
+  .main{
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+  }
+  .main .head1{
+    
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+  }
+  .content p {
+    width: 55%;
+    
+    margin-top: 25px;
+    margin-bottom: 30px;
+    transition-duration: 1s;
+  }
+  
